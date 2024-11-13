@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ogden Avalanche</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="brand">
+            <a href="home.html">
+                <img src="avylogo.png" alt="Avy logo" />
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="Observations.html">Observations</a></li>
+            <li><a href="Classes.html">Classes</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="Support.html">Support Us</a></li>
+            <li><a href="About.html">About</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section id="One" class="One">
+            <img src="Snow-flake-thing.png" alt="snow tracker">
+        </section>
+
+        <!-- Image Carousel Section -->
+        <section id="Two" class="Two">
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="skier.jpeg" alt="Skier 1">
+                    <img src="skier2.jpeg" alt="Skier 2">
+                    <img src="skier3.png" alt="Skier 3">
+                    <img src="cows.webp" alt="Cow 4">
+                </div>
+            </div>
+            <!-- Add Previous/Next buttons -->
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+          <!-- Address section on the left -->
+          <div class="footer-address">
+              <p>P.O. Box 56</p>
+              <p>Huntsville, UT</p>
+              <p>84317, USA</p>
+          </div>
+  
+          <!-- Social media links in the middle -->
+          <div class="footer-social">
+              <a href="https://www.facebook.com/Ogdenavalanche/" target="_blank" aria-label="Facebook">Facebook</a>
+              <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">Twitter</a>
+              <a href="https://www.instagram.com/ogdenavalanche/" target="_blank" aria-label="Instagram">Instagram</a>
+          </div>
+  
+          <!-- Contact info on the right -->
+          <div class="footer-contact">
+              <p>Phone: (123) 456-7890</p>
+              <p>Email: Ogdenavy@ogdenavalanche.org</p>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>
